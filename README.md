@@ -45,4 +45,4 @@ Give credit here.
 <!-- This project is open source and available under the [... License](). -->
 
 <!-- You don't have to include all sections - just the one's relevant to your project -->
-{"mode":"full","isActive":false}# Calculator
+
