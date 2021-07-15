@@ -17,11 +17,11 @@ class Calculator:
         Returns:
             The return value. Sum of number inputted and memory value.
         """
-        try:
+        if isinstance (num, (int, float)):
             self.__value += num
             return self.__value
-        except Exception as error:
-            raise Exception
+        else:
+            return ('This is a wrong input. Input a float or integer')
     
     def subtract(self, num: int or float) -> int or float:
         """
@@ -29,7 +29,7 @@ class Calculator:
         Args:
             num: The parameter to be added to current memory value.
         Returns:
-            The return value. Sum of number inputted and memory value.
+            The return value. Subtracted of number inputted and memory value.
         """
 
         self.__value = self.__value - num
