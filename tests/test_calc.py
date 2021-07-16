@@ -1,4 +1,3 @@
-
 from src.calc_package.calculator import Calculator
 calculator = Calculator()
 
