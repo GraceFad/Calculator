@@ -124,3 +124,4 @@ class Calculator:
         """
         self.__value = 0
         return self.value 
+        
