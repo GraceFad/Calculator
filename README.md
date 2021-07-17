@@ -28,17 +28,31 @@ To install, run the following command in a terminal/commnd prompt.
 pip install git+https://github.com/GraceFad/Calculator.git
 ```
 
+To import calculator package for use and test the functions, run the following command.
+
 ```python
-import foobar
+from calc_package.calculator import Calculator
 
-# returns 'words'
-foobar.pluralize('word')
+calc = Calculator()
 
-# returns 'geese'
-foobar.pluralize('goose')
+# add function. returns 2
+calc.add(2)
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+# multiply function. returns 4
+calc.multiply(2)
+
+# subtract function. returns 2
+calc.subtract(2)
+
+# divide function. returns 1.0
+calc.divide(2)
+
+# reset function. returns 0
+calc.reset()
+
+# root function. returns 5, the squareroot of 25
+calc.root(25,2)
+
 ```
 
 
