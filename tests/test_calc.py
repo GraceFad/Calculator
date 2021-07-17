@@ -30,6 +30,6 @@ def test_can_raise_exception_error():
     assert calculator.add('aa') == 'This is a wrong input. Input a float or integer'
     assert calculator.divide(0) == "Input a number greater than 0 "
     assert calculator.root(0,5) == "Input a value greater than 0 "
-    assert calculator.root(0,'aa') == "Input a value greater than 0 "
+    assert calculator.root(0,'bb') == "Input a value greater than 0 "
     
 
