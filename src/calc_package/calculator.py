@@ -27,12 +27,12 @@ class Calculator:
     """
 
     def __init__(self):
-        self.__value = 0
+        self._value = 0
     
     @property
     def value(self):
         """int: Returns the memory value at a particular time"""
-        return self.__value
+        return self._value
 
     def add(self, num: int or float) -> int or float:
         """
@@ -44,8 +44,8 @@ class Calculator:
                 The return value. Sum of number inputted and memory value.
         """
         if isinstance (num, (int, float)):
-            self.__value += num
-            return self.__value
+            self._value += num
+            return self._value
         else:
             return ('This is a wrong input. Input a float or integer')
 
@@ -60,8 +60,8 @@ class Calculator:
             The return value gotten from the subtraction of inputted number and the menory value.
         """
         if isinstance (num, (int, float)):
-            self.__value -= num
-            return self.__value
+            self._value -= num
+            return self._value
         else:
             return ('This is a wrong input. Input a float or integer')
 
@@ -76,8 +76,8 @@ class Calculator:
                 The return value. Product of number inputted and memory value.
         """
         if isinstance (num, (int, float)):
-            self.__value *= num
-            return self.__value
+            self._value *= num
+            return self._value
         else:
             return ('This is a wrong input. Input a float or integer')
 
@@ -95,8 +95,8 @@ class Calculator:
             return ("Input a number greater than 0 ")
         else: 
             if isinstance (num, (int, float)):
-                self.__value /= num
-                return self.__value
+                self._value /= num
+                return self._value
             else:
                 return ('This is a wrong input. Input a float or integer')
  
@@ -128,6 +128,6 @@ class Calculator:
             Returns:
                     The root of the num.
         """
-        self.__value = 0
+        self._value = 0
         return self.value 
         
