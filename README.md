@@ -5,21 +5,30 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Installation] (#installation)
 * [Functions](#functions)
-* [Project Status](#project-status)
+* [Installation](installation)
 * [Acknowledgements](#acknowledgements)
-<!-- * [License](#license) -->
-
+* [License](#license)
+* [Project Status](#project-status)
 
 ## General Information
-- This project is a simple calcuator package to perform basic add/subtract, divide/mulitply functions and to take the nth root of a number. 
-- This project is to apply my knowledge in creating a python package from start to finish, as well as write clean OOP based Python code and testing it
+- This project is a simple calcuator package to perform basic add/subtract, divide/mulitply functions and to take the nth root of a number.
+ 
+- This project is to apply my knowledge in creating a python package from start to finish, as well as writing clean OOP based Python code and testing it.
 
 
 
 ## Technologies Used
 - Python - version 3.6
+
+
+## Functions
+List the ready functions here:
+- Add/Subtract function
+- Multiply/Divide function
+- Take nth root function
+- Reset memory function
+
 
 ## Installation 
 ### Install from GitHub
@@ -54,16 +63,6 @@ calc.reset()
 calc.root(25,2)
 
 ```
-
-
-## Functions
-List the ready functions here:
-- Add/Subtract function
-- Multiply/Divide function
-- Take nth root function
-- Reset memory function
-
-
 
 ## Acknowledgements
 Give credit here.
