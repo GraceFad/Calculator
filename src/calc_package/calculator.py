@@ -91,11 +91,14 @@ class Calculator:
             Returns:
                 The return value. Division of memory value by number inputted.
         """
-        if isinstance (num, (int, float)):
-            self.__value /= num
-            return self.__value
-        else:
-            return ('This is a wrong input. Input a float or integer')
+        if num == 0:
+            return ("Input a number greater than 0 ")
+        else: 
+            if isinstance (num, (int, float)):
+                self.__value /= num
+                return self.__value
+            else:
+                return ('This is a wrong input. Input a float or integer')
  
     def root(self, num: int or float, rootnum: int or float) -> int or float :
         """
@@ -109,7 +112,10 @@ class Calculator:
                     The root of the num.
         """
         import math 
-        return num ** (1/rootnum)
+        if num == 0 or rootnum == 0:
+            return ("Input a value greater than 0 ")
+        else:
+            return num ** (1/rootnum)
 
     def reset(self):
         """
