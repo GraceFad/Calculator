@@ -13,7 +13,7 @@
 
 ## General Information
 - This project is a simple calcuator package to perform basic add/subtract, divide/mulitply functions and to take the nth root of a number.
- 
+
 - This project is to apply my knowledge in creating a python package from start to finish, as well as writing clean OOP based Python code and testing it.
 
 
@@ -37,6 +37,7 @@ To install, run the following command in a terminal/commnd prompt.
 pip install git+https://github.com/GraceFad/Calculator.git
 ```
 
+### Import package and Use
 To import calculator package for use and test the functions, run the following command.
 
 ```python
@@ -65,7 +66,6 @@ calc.root(25,2)
 ```
 
 ## Acknowledgements
-Give credit here.
 - This project was inspired by Turing College
 
 ## License
